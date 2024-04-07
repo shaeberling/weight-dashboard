@@ -1,0 +1,6 @@
+venv/
+__pycache__
+.fitbit-code
+.fitbit-refreshtoken
+.fitbit-client-id
+.fitbit-client-secret
