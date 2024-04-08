@@ -25,6 +25,7 @@ class FitbitApi:
         points = []
         try:
             response = requests.get(
+                # TODO: Figure out, what timeframe to use (based on last sync).
                 f"https://api.fitbit.com/1/user/-/{category}/{type}/date/today/1d.json",
                 headers={
                     "Authorization": f"Bearer {self.__access_token}",
